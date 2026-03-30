@@ -1,0 +1,57 @@
+[
+    {
+        "order_number": "COH-1773762545-473",
+        "customer_name": "riyasharma",
+        "customer_email": "helisurani05@gmail.com",
+        "customer_phone": "0987654321",
+        "delivery_address": "Shilaj, Daskroi - 380059",
+        "items": {
+            "1": {
+                "name": "Espresso",
+                "price": 120,
+                "img": "images\/espresso.jpg",
+                "qty": 1
+            },
+            "14": {
+                "name": "Red Velvet Cake",
+                "price": 250,
+                "img": "images\/red-velvet.jpg",
+                "qty": 1
+            },
+            "22": {
+                "name": "Paneer Tikka Pizza",
+                "price": 360,
+                "img": "images\/paneer-pizza.jpg",
+                "qty": 1
+            },
+            "custom-1773762377713": {
+                "name": "Fresh Blueberry Juice \ud83e\udd64",
+                "price": 190,
+                "qty": 1,
+                "img": "",
+                "custom": true
+            },
+            "also-1773762393427": {
+                "name": "\ud83c\udf53 Strawberry Refresher",
+                "price": 190,
+                "qty": 1,
+                "img": ""
+            },
+            "mood-stressed-1773762403050": {
+                "name": "\ud83e\udd5b Warm Vanilla Oat Hug",
+                "price": 190,
+                "qty": 1,
+                "img": ""
+            }
+        },
+        "subtotal": 1235,
+        "gst": 123,
+        "discount": 0,
+        "total": 1358,
+        "payment_method": "upi",
+        "order_status": "Pending",
+        "special_note": "",
+        "placed_at": "2026-03-17 16:49:05",
+        "id": 1
+    }
+]

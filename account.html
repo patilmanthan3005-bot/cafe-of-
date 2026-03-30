@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - Cafe of Heaven</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+<nav>
+  <a class="nav-logo" href="index.html">☕ Cafe <span>of Heaven</span></a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <a class="nav-link" href="menu.html">🍽️ Menu</a>
+    <a class="nav-link" href="build.html">🎨 Build Your Own</a>
+    <a class="nav-link" href="mood.html">😊 Mood Selector</a>
+    <a class="nav-link" href="favourites.html">❤️ Favourites</a>
+    <a class="nav-link" href="spin.html">🎡 Spin & Win</a>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <a class="nav-link active" href="account.html">👤 Account</a>
+    <button class="cart-btn" onclick="window.location.href='cart.html'">🛒 Cart <span class="cart-count" id="cartCount">0</span></button>
+  </div>
+</nav>
+
+    <!-- Main Content -->
+    <div class="account-container">
+        <div class="account-header">
+            <h1 class="account-title">My Account</h1>
+            <div id="loadingIndicator" class="loading" style="display: none;">Loading...</div>
+        </div>
+
+        <div class="account-grid">
+            <!-- Sidebar -->
+            <div class="account-sidebar">
+                <div class="profile-summary">
+                    <div class="profile-avatar" id="profileAvatar">👤</div>
+                    <div class="profile-name" id="profileName">Loading...</div>
+                    <div class="profile-email" id="profileEmail">loading@email.com</div>
+                    <div class="profile-join" id="profileJoin">Member since 2026</div>
+                </div>
+                
+                <ul class="sidebar-menu">
+                    <li>
+                        <a href="#profile" id="menu-profile" class="active">
+                            <i>👤</i> Profile Information
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#addresses" id="menu-addresses">
+                            <i>📍</i> Saved Addresses
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#orders" id="menu-orders">
+                            <i>📦</i> Order History
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#favourites" id="menu-favourites">
+                            <i>❤️</i> My Favourites
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings" id="menu-settings">
+                            <i>⚙️</i> Settings
+                        </a>
+                    </li>
+                </ul>
+                
+                <button class="logout-btn" onclick="logout()">
+                    <span>🚪</span> Logout
+                </button>
+            </div>
+
+            <!-- Content Area -->
+            <div class="account-content" id="accountContent">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/account.js"></script>
+</body>
+</html>

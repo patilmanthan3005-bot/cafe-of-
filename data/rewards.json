@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "emoji": "\u2615",
+        "label": "Free Coffee",
+        "description": "One free hot coffee",
+        "type": "free",
+        "value": 0,
+        "chance": 5,
+        "color": "#c87820",
+        "active": true
+    },
+    {
+        "id": 2,
+        "emoji": "\ud83d\udcb8",
+        "label": "20% Off",
+        "description": "On your entire order",
+        "type": "pct",
+        "value": 20,
+        "chance": 10,
+        "color": "#2a7a2a",
+        "active": true
+    },
+    {
+        "id": 3,
+        "emoji": "\ud83c\udf89",
+        "label": "10% Off",
+        "description": "Discount on your cart",
+        "type": "pct",
+        "value": 10,
+        "chance": 20,
+        "color": "#8a4010",
+        "active": true
+    },
+    {
+        "id": 4,
+        "emoji": "\ud83c\udf69",
+        "label": "Free Snack",
+        "description": "Any snack of your choice",
+        "type": "free",
+        "value": 0,
+        "chance": 8,
+        "color": "#6a1a4a",
+        "active": true
+    },
+    {
+        "id": 5,
+        "emoji": "\ud83d\udcb0",
+        "label": "\u20b950 Off",
+        "description": "Flat \u20b950 off your order",
+        "type": "flat",
+        "value": 50,
+        "chance": 15,
+        "color": "#1a4a7a",
+        "active": true
+    },
+    {
+        "id": 6,
+        "emoji": "\ud83d\ude14",
+        "label": "Better Luck!",
+        "description": "Try again tomorrow",
+        "type": "none",
+        "value": 0,
+        "chance": 22,
+        "color": "#4a4a4a",
+        "active": true
+    },
+    {
+        "id": 7,
+        "emoji": "\ud83e\udd50",
+        "label": "Free Croissant",
+        "description": "One buttery croissant",
+        "type": "free",
+        "value": 0,
+        "chance": 7,
+        "color": "#7a3a10",
+        "active": true
+    },
+    {
+        "id": 8,
+        "emoji": "\ud83d\udc8e",
+        "label": "\u20b9100 Off",
+        "description": "Big flat discount!",
+        "type": "flat",
+        "value": 100,
+        "chance": 3,
+        "color": "#2a1a6a",
+        "active": true
+    },
+    {
+        "id": 9,
+        "emoji": "\ud83c\udf81",
+        "label": "5% Off",
+        "description": "Small but sweet discount",
+        "type": "pct",
+        "value": 5,
+        "chance": 20,
+        "color": "#4a2a0a",
+        "active": true
+    },
+    {
+        "id": 10,
+        "emoji": "\ud83c\udf1f",
+        "label": "Mystery Reward!",
+        "description": "A surprise added to your order",
+        "type": "pct",
+        "value": 15,
+        "chance": 5,
+        "color": "#6a2a00",
+        "active": true
+    },
+    {
+        "id": 11,
+        "emoji": "\ud83d\ude0a",
+        "label": "Double Points",
+        "description": "Loyalty points doubled",
+        "type": "none",
+        "value": 0,
+        "chance": 10,
+        "color": "#1a5a3a",
+        "active": true
+    },
+    {
+        "id": 12,
+        "emoji": "\u2615",
+        "label": "\u20b930 Off",
+        "description": "Quick saving on cart",
+        "type": "flat",
+        "value": 30,
+        "chance": 15,
+        "color": "#5a2a00",
+        "active": true
+    }
+]

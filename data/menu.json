@@ -1,0 +1,360 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "category": "coffee",
+        "price": 120,
+        "desc": "Bold & pure \u2014 a classic single shot of rich espresso.",
+        "img": "images\/espresso.jpg",
+        "veg": true
+    },
+    {
+        "id": 2,
+        "name": "Cappuccino",
+        "category": "coffee",
+        "price": 150,
+        "desc": "Espresso topped with thick, creamy steamed milk foam.",
+        "img": "images\/cappuccino.jpg",
+        "veg": true
+    },
+    {
+        "id": 3,
+        "name": "Latte",
+        "category": "coffee",
+        "price": 170,
+        "desc": "Smooth espresso with velvety steamed milk \u2014 mild & comforting.",
+        "img": "images\/latte.jpg",
+        "veg": true
+    },
+    {
+        "id": 4,
+        "name": "Mocha",
+        "category": "coffee",
+        "price": 180,
+        "desc": "Espresso blended with rich chocolate & topped with cream.",
+        "img": "images\/mocha.jpg",
+        "veg": true
+    },
+    {
+        "id": 5,
+        "name": "Cold Coffee",
+        "category": "coffee",
+        "price": 160,
+        "desc": "Chilled, creamy blended coffee \u2014 perfect on a warm day.",
+        "img": "images\/cold-coffee.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 6,
+        "name": "Americano",
+        "category": "coffee",
+        "price": 200,
+        "desc": "Double espresso with hot water for a smooth bold taste.",
+        "img": "images\/americano.jpg",
+        "veg": true
+    },
+    {
+        "id": 7,
+        "name": "Chocolate Croissant",
+        "category": "baked",
+        "price": 90,
+        "desc": "Flaky golden croissant filled with smooth dark chocolate.",
+        "img": "images\/croissant.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 8,
+        "name": "Butter Pastry",
+        "category": "baked",
+        "price": 80,
+        "desc": "Soft, melt-in-your-mouth butter pastry baked fresh daily.",
+        "img": "images\/butter-pastry.jpg",
+        "veg": true
+    },
+    {
+        "id": 9,
+        "name": "Cheese Puff",
+        "category": "baked",
+        "price": 100,
+        "desc": "Light airy puff pastry loaded with gooey melted cheese.",
+        "img": "images\/cheese-puff.jpg",
+        "veg": true
+    },
+    {
+        "id": 10,
+        "name": "Strawberry Danish",
+        "category": "baked",
+        "price": 110,
+        "desc": "Buttery Danish pastry topped with fresh strawberry glaze.",
+        "img": "images\/strawberry-danish.jpg",
+        "veg": true,
+        "isNew": true
+    },
+    {
+        "id": 11,
+        "name": "Blueberry Muffin",
+        "category": "baked",
+        "price": 95,
+        "desc": "Moist fluffy muffin bursting with fresh blueberries.",
+        "img": "images\/blueberry-muffin.jpg",
+        "veg": true
+    },
+    {
+        "id": 12,
+        "name": "Apple Puff",
+        "category": "baked",
+        "price": 105,
+        "desc": "Warm spiced apple filling in a crispy puff pastry shell.",
+        "img": "images\/apple-puff.jpg",
+        "veg": true
+    },
+    {
+        "id": 13,
+        "name": "Chocolate Truffle Cake",
+        "category": "cakes",
+        "price": 220,
+        "desc": "Decadent dark chocolate layers with silky truffle ganache.",
+        "img": "images\/chocolate-cake.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 14,
+        "name": "Red Velvet Cake",
+        "category": "cakes",
+        "price": 250,
+        "desc": "Classic red velvet with luscious cream cheese frosting.",
+        "img": "images\/red-velvet.jpg",
+        "veg": true
+    },
+    {
+        "id": 15,
+        "name": "Blueberry Cheesecake",
+        "category": "cakes",
+        "price": 270,
+        "desc": "Creamy NY-style cheesecake with fresh blueberry coulis.",
+        "img": "images\/cheesecake.jpg",
+        "veg": true
+    },
+    {
+        "id": 16,
+        "name": "Pineapple Cake",
+        "category": "cakes",
+        "price": 210,
+        "desc": "Light sponge layered with sweet pineapple cream.",
+        "img": "images\/pineapple-cake.jpg",
+        "veg": true
+    },
+    {
+        "id": 17,
+        "name": "Butterscotch Cake",
+        "category": "cakes",
+        "price": 230,
+        "desc": "Fluffy cake drenched in butterscotch sauce & caramel crunch.",
+        "img": "images\/butterscotch-cake.jpg",
+        "veg": true,
+        "isNew": true
+    },
+    {
+        "id": 18,
+        "name": "Cheese Corn Pizza",
+        "category": "pizza",
+        "price": 380,
+        "desc": "Sweet corn & melted mozzarella on a golden crispy base.",
+        "img": "images\/corn.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 19,
+        "name": "Margherita Pizza",
+        "category": "pizza",
+        "price": 280,
+        "desc": "Classic tomato sauce, fresh mozzarella & fragrant basil.",
+        "img": "images\/margherita-pizza.jpg",
+        "veg": true
+    },
+    {
+        "id": 20,
+        "name": "Veg Supreme Pizza",
+        "category": "pizza",
+        "price": 320,
+        "desc": "Loaded with capsicum, mushrooms, olives & sweet onions.",
+        "img": "images\/veg-pizza.jpg",
+        "veg": true
+    },
+    {
+        "id": 21,
+        "name": "Seven Cheese Pizza",
+        "category": "pizza",
+        "price": 350,
+        "desc": "An indulgent blend of seven premium melted cheeses.",
+        "img": "images\/cheese.jpg",
+        "veg": true,
+        "isNew": true
+    },
+    {
+        "id": 22,
+        "name": "Paneer Tikka Pizza",
+        "category": "pizza",
+        "price": 360,
+        "desc": "Spiced paneer tikka on tandoori sauce base \u2014 desi twist!",
+        "img": "images\/paneer-pizza.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 23,
+        "name": "Farmhouse Pizza",
+        "category": "pizza",
+        "price": 340,
+        "desc": "Fresh veggies, herbs & creamy white sauce on thin crust.",
+        "img": "images\/farmhouse.jpg",
+        "veg": true
+    },
+    {
+        "id": 24,
+        "name": "Classic Veg Burger",
+        "category": "burger",
+        "price": 180,
+        "desc": "Crispy veggie patty, lettuce, tomato & our secret sauce.",
+        "img": "images\/veg-burger.jpg",
+        "veg": true
+    },
+    {
+        "id": 25,
+        "name": "Cheese Burger",
+        "category": "burger",
+        "price": 220,
+        "desc": "Double cheddar melt on a juicy patty with pickles & mustard.",
+        "img": "images\/cheese-burger.jpg",
+        "veg": true
+    },
+    {
+        "id": 26,
+        "name": "Paneer Burger",
+        "category": "burger",
+        "price": 250,
+        "desc": "Grilled tandoori paneer with mint chutney & onion rings.",
+        "img": "images\/paneer-burger.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 27,
+        "name": "Double Cheese Burger",
+        "category": "burger",
+        "price": 280,
+        "desc": "Two patties, double cheese \u2014 double the satisfaction!",
+        "img": "images\/double-cheese.jpg",
+        "veg": true,
+        "isNew": true
+    },
+    {
+        "id": 28,
+        "name": "Peri Peri Burger",
+        "category": "burger",
+        "price": 270,
+        "desc": "Fiery peri peri sauce with crispy patty & fresh coleslaw.",
+        "img": "images\/peri-peri.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 29,
+        "name": "Sp. COFH Burger",
+        "category": "burger",
+        "price": 300,
+        "desc": "Our signature burger \u2014 secret spice blend, chef's special!",
+        "img": "images\/maharaja.jpg",
+        "veg": true,
+        "isSpecial": true
+    },
+    {
+        "id": 30,
+        "name": "Penne Arrabbiata",
+        "category": "pasta",
+        "price": 220,
+        "desc": "Penne in a fiery tomato & garlic sauce with fresh basil.",
+        "img": "images\/penne-arrabbiata.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 31,
+        "name": "Pasta Alfredo",
+        "category": "pasta",
+        "price": 250,
+        "desc": "Creamy white Alfredo sauce with garlic & parmesan cheese.",
+        "img": "images\/pasta-alfredo.jpg",
+        "veg": true
+    },
+    {
+        "id": 32,
+        "name": "Mac & Cheese",
+        "category": "pasta",
+        "price": 230,
+        "desc": "Classic comfort mac loaded with rich three-cheese sauce.",
+        "img": "images\/mac-cheese.jpg",
+        "veg": true,
+        "isNew": true
+    },
+    {
+        "id": 33,
+        "name": "Pesto Pasta",
+        "category": "pasta",
+        "price": 240,
+        "desc": "Al dente pasta tossed in homemade basil pesto & pine nuts.",
+        "img": "images\/pesto-pasta.jpg",
+        "veg": true
+    },
+    {
+        "id": 34,
+        "name": "Paneer Pasta",
+        "category": "pasta",
+        "price": 260,
+        "desc": "Grilled paneer in a spiced Indian-Italian fusion sauce.",
+        "img": "images\/paneer-pasta.jpg",
+        "veg": true,
+        "hot": true
+    },
+    {
+        "id": 35,
+        "name": "Pink Sauce Pasta",
+        "category": "pasta",
+        "price": 270,
+        "desc": "A heavenly blend of tomato & cream sauce \u2014 everyone's fave!",
+        "img": "images\/pink-sauce-pasta.jpg",
+        "veg": true,
+        "isSpecial": true
+    },
+    {
+        "id": 36,
+        "name": "Cafe of Heaven Mug",
+        "category": "souvenir",
+        "price": 299,
+        "desc": "Our signature ceramic mug \u2014 take the heaven home with you.",
+        "img": "images\/cafe-mug.png",
+        "veg": null
+    },
+    {
+        "id": 37,
+        "name": "Reusable Coffee Tumbler",
+        "category": "souvenir",
+        "price": 399,
+        "desc": "Eco-friendly stainless steel tumbler \u2014 stays hot or cold.",
+        "img": "images\/coffee-tumbler.jpg",
+        "veg": null
+    },
+    {
+        "id": 38,
+        "name": "Caf\u00e9 Logo Keychain",
+        "category": "souvenir",
+        "price": 149,
+        "desc": "Cute enamel keychain \u2014 a little piece of heaven on your keys.",
+        "img": "images\/keychain.png",
+        "veg": null
+    }
+]
